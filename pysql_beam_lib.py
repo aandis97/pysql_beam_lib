@@ -16,6 +16,7 @@ from apache_beam import coders
 from apache_beam.options import value_provider
 from apache_beam.transforms import Reshuffle
 
+__version__ = '0.1'
 
 try:
     from apitools.base.py.exceptions import HttpError
